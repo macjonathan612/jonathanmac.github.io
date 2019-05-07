@@ -1,0 +1,1469 @@
+main {
+    margin: 0 auto;
+    width: 100%!important;
+}
+body {
+    margin: 0 auto;
+}
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+#container {
+    max-width: 100%;
+}
+
+h1 h2 h3 h4 {
+    font-family: 'Hind', sans-serif;
+
+}
+
+
+
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+.underline {
+    text-decoration-line: underline;
+    }
+button:focus {
+    outline: none;
+}
+.backgroundimg1 {
+    background: url("../images/mountainshot.JPG")no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-top: 450px;
+    border-radius: 0 0;
+    height: 100vh;
+    position: relative;
+
+}
+.slidedown {
+    position: absolute;
+    top: 90%;
+    left: 43%;
+    color: white;
+    font-size: 14px;
+
+}
+.slidedownl {
+    text-align: left;
+    color: white;
+    margin-left: 15px;
+    position: absolute;
+    top: 90%;
+}
+
+.slidedownr {
+    text-align: right;
+    color: white;
+    margin-right: 15px;
+    position: absolute;
+    top: 90%;
+    right: 10%;
+}
+
+
+
+.logopic {
+    position: absolute;
+    top: 3%;
+    bottom: 10%;
+    left: 32%;
+}
+
+@media (max-width: 500px){
+    .logopic {
+       width: 277px!important;
+    }
+}
+
+
+
+
+.colorpalette {
+     background: linear-gradient(to left, #A3DAF5 70%, #231F20 70%);
+
+     height: 100px;
+    color: white;
+    padding: 35px 25px;
+ }
+
+.colorpalette2 {
+    background: linear-gradient(to left, #364952 60%, white 60%);
+    height: 100px;
+
+}
+
+
+
+.section1 {
+    opacity: .9;
+    padding: 50px;
+    text-align: center;
+    color: white;
+    background-color: black;
+    margin-bottom: 20px;
+}
+.section3 {
+    height: 158px;
+    background-color: black;
+    opacity: .9;
+    padding: 50px;
+    text-align: center;
+    color: white;
+
+
+}
+
+.budgeticon {
+    /* margin-left: 95%; */
+    width: 163px;
+    display: inline-block;
+    /* align-content: center; */
+}
+
+.budget {
+}
+
+.small {
+    font-size: 14px;
+}
+p {
+    font-size: 14px;
+}
+.section1card {
+    color: white;
+    background-color: black;
+}
+.cardtitlesection1 {
+color: white;
+}
+.cardbodysection1 {
+    color: white;
+}
+
+.contread {
+   text-decoration: none;
+    color: black;
+}
+.contread:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+
+.how {
+    background-color: whitesmoke;
+    padding: 163px 20px;
+    height: 100vh;
+    box-shadow: inset 0px 4px 10px black;
+}
+.howh1 {
+    text-align: center;
+    color: black;
+}
+.howp {
+    text-align: center;
+    color: #364952;
+}
+
+.card {
+    background-color: white;
+    border: none;
+}
+.card-header {
+    color: white;
+    background-color: black;
+}
+.card-body {
+    /*background-color: black;*/
+}
+.budget {
+
+}
+.section2heading {
+    margin: 50px 0;
+}
+
+.section2 {
+    background-color: white;
+    border-radius: 0 0 ;
+    color: black;
+    opacity: .95;
+    padding: 25px;
+
+}
+label {
+  font-family: 'Hind', sans-serif;
+
+}
+.sociali {
+    margin: 0 10px;
+}
+/* ______ Background Images _________ */
+
+.backgroundimg2 {
+    background: url(../images/car-mtn.jpg)no-repeat center center;
+    padding-top: 350px;
+    height: 300px;
+    min-width: 100%;
+}
+.backgroundimg3 {
+    background: url("../images/mtnhiking.jpg")fixed;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 100%;
+    padding: 20% 200px;
+    height: 392px;
+}
+.backgroundimg6 {
+    background: url("../images/loringpark.jpg")no-repeat center center fixed;
+    background-size: cover;
+    padding-top: 350px;
+    height: 400px;
+    min-width: 100%;
+}
+.jumbo3 {
+    background-color: black;
+    opacity: .7;
+
+}
+
+.formlabel {
+    float: left;
+    margin-right: 35px;
+}
+.iconhover {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 0;
+}
+
+.iconhover .imgtop {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.iconhover:hover .imgtop {
+    display: inline;
+}
+.icon {
+    margin-top: 25px;
+}
+.iconfloat {
+    float: left;
+}
+.dropshadow {
+    margin-top: 50px;
+}
+.dropshadow:hover {
+    box-shadow: 10px 10px 5px grey;
+
+}
+.testimonials {
+    padding: 20px;
+    margin: 20px auto;
+}
+.card-text p {
+    color: black !important;
+    text-align: left !important;
+}
+.btn1 {
+    height:50px;
+    width: 200px;
+    text-align: center;
+    background-color:#A3DAF5;
+    color:black;
+    padding:12px;
+    font-family: 'Montserrat', sans-serif;
+    margin:15px;
+
+}
+.btn1:hover{
+    box-shadow: 8px 8px 5px grey;
+}
+
+
+.btn1link:link, .btn1link:visited {
+    color:white;
+    text-decoration: none;
+    cursor: auto;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.burgerbtn {
+    text-align: center;
+    display: block;
+    position: absolute;
+    left: 90%;
+    top: 25px;
+}
+
+
+button {
+    padding: 0;
+}
+.background5 {
+
+}
+#testimonial {
+    height: 800px;
+}
+.testimonialhome {
+    background-color: black;
+    height: 200px;
+}
+.background5 {
+    margin: 25px 0;
+    text-align: center;
+}
+
+.getstartedholder {
+    height: 100px;
+    text-align: center;
+}
+.getstarted {
+    width: 250px;
+    background-color: white;
+    height: 50px;
+    display: block;
+    padding: 10px;
+    margin: auto;
+}
+.button {
+    text-decoration: none;
+    color: black;
+}
+
+.button:hover {
+    text-decoration: none;
+    color: black;
+}
+.getstarted:hover {
+    background-color:#364952;
+    color: white;
+}
+
+
+/* Footer and The two buttons in the footer break */
+
+.footer {
+    background-color: black;
+    text-align: center;
+    font-size: 10px;
+    padding-bottom: 172px;
+    display: block;
+    height: 446px;
+
+}
+.footerimg {
+    display: inline-block;
+    margin-top: 35px;
+    margin-bottom: 15px;
+    transition: transform .2s;
+
+}
+
+.footerimg:hover {
+    transform: scale(1.125);
+}
+
+.footerpcontainer {
+    margin-left: 25px;
+}
+.footerp {
+    text-align: right;
+    color: lightgrey;
+    margin-top: 40px;
+    /* margin-bottom: 10px; */
+    float: right;
+    margin-right: 10px;
+}
+
+.footerbreak {
+    height: 100px;
+    background-color: #364952;
+    display: inline-block;
+    float: left;
+    text-align: center;
+    padding: 25px;
+
+}
+
+.footerbreak h2{
+    visibility: hidden;
+
+}
+
+.footerbreak:hover {
+    background-color: black;
+    cursor: pointer;
+
+
+}
+.footerbreak:hover h2 {
+    visibility: visible;
+    color: white;
+
+}
+.footerbreak2 {
+    height: 100px;
+
+    display: inline-block;
+    text-align: center;
+    padding: 25px;
+
+}
+.footerbreakbtn {
+    margin-bottom:0!important;
+}
+/*.instasocial {*/
+    /*margin-left: 15px;*/
+    /*margin-right: 15px;*/
+/*}*/
+
+.socialicons {
+    text-align: right;
+    padding-right: 50px;
+    margin-bottom: 50px;
+}
+
+
+.socialicons img:hover {
+   opacity: .7;
+    cursor: pointer;
+}
+
+.portfolio {
+    color: #A3DAF5;
+}
+.frontpageIcons {
+
+    color: black;
+}
+
+.frontpageIcons:hover {
+    color: #364952!important;
+    cursor: pointer;
+}
+
+
+/* Media Queries */
+
+@media (max-width: 993px) {
+    nav {
+        left: 9%;
+    }
+
+    @media (max-width: 1130px) {
+        nav {
+            left: 15%;
+        }
+    }
+
+    @media (max-width: 991px) {
+        nav {
+            top: 172px;
+            left: 78%;
+
+        }
+        nav li a {
+            font-size: 10px;
+        }
+
+        .logopic {
+            width: 300px;
+            top: 45px;
+
+        }
+
+        .navmain {
+            margin: 0;
+        }
+        .card {
+            display: block;
+            margin: 25px 0;
+            width: 100%;
+        }
+
+
+    }
+}
+@media (max-width: 768px) {
+    .backgroundimg1 {
+        height: 100vh;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    .backgroundimg2 {
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    .backgroundimg3 {
+        height: 250px;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        padding: 50px 50px;
+        background-attachment: initial;
+
+    }
+    .logopic {
+        left: 20%;
+
+    }
+
+    h2 {
+        font-size: 1rem;
+    }
+    p {
+        font-size: 12px;
+    }
+
+    .budgeticon {
+        width: 145px;
+    }
+    .surveryicon {
+        width: 75px;
+    }
+    .footerbreak h2{
+        visibility: visible;
+        font-size: 20px;
+        color: black;
+
+    }
+    .footerbreak {
+        border: 1px solid black;
+        height: 75px;
+    }
+}
+@media (max-width: 525px) {
+    .contain-fluid {
+        max-width: 525px;
+    }
+
+    .burgerbtn {
+        left: 86%;
+    }
+
+    .logopic {
+        left: 20%;
+        width: 250px;
+    }
+
+    @media (max-width: 525px) {
+        .logopic {
+            left: 13%;
+            width: 250px;
+            top: 115px;
+        }
+    }
+    .overlay a {
+        font-size: 20px
+    }
+
+    .overlay .closebtn .burgerbtn {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+
+    .backgroundimg1 {
+        height: 100vh;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        width: 100%;
+    }
+
+    .backgroundimg2 {
+
+        background-size: cover;
+
+    }
+
+    .budgeticon {
+        width: 233px;
+        font-size: 22px;
+    }
+
+    .small {
+        font-size: 18px;
+    }
+
+    .budget {
+        /*margin-left: 46px;*/
+    }
+
+    .small {
+        font-size: 18px;
+    }
+
+    .cardicon {
+        width: 75px;
+    }
+
+    .backgroundimg3 {
+        height: 230px;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+}
+    @media (max-width: 576px) {
+        .backgroundimg3 {
+            height: 229px;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+            margin-top: 379px;
+        }
+
+        .footerbreak h2 {
+            visibility: visible;
+            font-size: 22px;
+            color: white;
+        }
+
+        .footerbreak {
+            border: 1px solid black;
+            height: 75px;
+        }
+
+        .footerp {
+            font-size: 9px;
+        }
+    }
+
+
+
+    .overlay {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: rgb(0, 0, 0);
+        background-color: rgba(0, 0, 0, 1);
+        overflow-x: hidden;
+        transition: 0.5s;
+    }
+
+    .overlay-content {
+        position: relative;
+        top: 5%;
+        width: 100%;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .overlay a {
+        padding: 8px;
+        text-decoration: none;
+        font-size: 36px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+    }
+
+    .overlay a:hover, .overlay a:focus {
+        color: #f1f1f1;
+    }
+
+    .overlay .closebtn {
+        position: absolute;
+        top: 20px;
+        right: 45px;
+        font-size: 60px;
+    }
+
+    @media (max-width: 1200px) {
+        .budgeticon {
+            width: 238px;
+        }
+
+    }
+
+    @media screen and (max-height: 1440px) {
+        .overlay a {
+            font-size: 20px
+        }
+
+        .overlay .closebtn {
+            font-size: 40px;
+            top: 15px;
+            right: 35px;
+        }
+    }
+
+    /* blog images in homepage */
+    .rows {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        padding: 0 4px;
+        /*background: url(../images/background-slash.png)no-repeat;*/
+        /*background-position-x: 37%;*/
+        /*background-position-y: 187%;*/
+    }
+
+    .blogbackground {
+
+        text-align: center;
+        font-family: sans-serif;
+        scroll-snap-type: x mandatory;
+        display: flex;
+        overflow-x: scroll;
+        height: 100vh;
+
+    }
+
+    .swiper0 {
+        text-align: center;
+    }
+
+    .swiper1 {
+        text-align: center;
+        padding: 75px 75px 75px 264px;
+    }
+
+    .swiper-slide {
+        padding-top: 50px;
+
+    }
+
+    .lastswipe {
+        width: 420px;
+        text-align: left;
+        margin: auto;
+    }
+
+    .swiperp {
+        float: left;
+        width: 200px;
+        text-align: left;
+    }
+
+    .swiper-wrapper {
+        height: 500px !important;
+        cursor: pointer;
+    }
+
+    .blogh1home {
+        color: #364952;
+        font-size: 3rem;
+    }
+
+    .blogbackground, p {
+        margin-bottom: 50px;
+        margin-top: 25px;
+
+    }
+
+    .blogimg {
+        transition: transform .2s;
+    }
+
+    .blogimg:hover {
+        transform: scale(.85);
+        /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport)
+        /* Create four equal columns that sits next to each other */
+    }
+
+    .filler {
+        width: 100%;
+        height: 330px;
+        background-color: #A3DAF5;
+        margin-top: 8px;
+    }
+
+    /* Responsive layout - makes a two column-layout instead of four columns */
+    @media screen and (max-width: 800px) {
+        .column {
+            -ms-flex: 50%;
+            flex: 50%;
+            max-width: 50%;
+        }
+
+        .column3 {
+            display: none;
+        }
+
+        .column4 {
+            display: none;
+        }
+    }
+
+    /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 600px) {
+        .column {
+            -ms-flex: 100%;
+            flex: 100%;
+            max-width: 100%;
+        }
+
+        .column3 {
+            display: none;
+        }
+
+        .column4 {
+            display: none;
+        }
+    }
+
+
+    /* Get Started Page */
+    .backgroundimg1GS {
+        background: url("../images/mtnhiking.jpg") no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        padding-top: 450px;
+        border-radius: 0 0;
+        height: 100vh;
+        position: relative;
+
+    }
+
+    .logopic2 {
+        transition: transform .2s;
+    }
+
+    .logopic2:hover {
+        transform: scale(1.025);
+        cursor: pointer;
+    }
+
+    .getstartedheader {
+        color: white;
+        position: absolute;
+        top: 81%;
+        left: 2%;
+        font-size: 9vw;
+        opacity: 0.4;
+    }
+
+    @media screen and (max-width: 996px) {
+        .getstartedheader {
+            top: 83%;
+            left: 3%;
+            font-size: 10vw;
+        }
+    }
+    @media screen and (max-width: 768px) {
+        .getstartedheader {
+            top: 85%;
+            font-size: 12vw;
+        }
+    }
+
+    @media screen and (max-width: 526px ) {
+        .getstartedheader {
+            top: 84%;
+            font-size: 18vw;
+            left: 4%;
+        }
+    }
+
+    .section1GS {
+        background: url(../images/firstplane.jpg) fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: bottom;
+        min-width: 100%;
+        height: 378px;
+        position: relative;
+    }
+
+    .step1holder {
+        height: 100px;
+        width: 300px;
+        position: absolute;
+        top: 216px;
+        left: 43%;
+
+    }
+
+    .section1GSh1 {
+        font-size: 35px;
+
+    }
+
+    @media (max-width: 525px) {
+        .section1GSh1 {
+            font-size: 35px;
+            left: -21%;
+            position: absolute;
+            bottom: 49px;
+        }
+    }
+
+    .section1GSh4 {
+        font-size: 1.5rem;
+    }
+
+    @media (max-width: 525px) {
+        .section1GSh4 {
+            font-size: 1.5rem;
+            position: absolute;
+            bottom: 17px;
+            left: -20%;
+        }
+    }
+    .surveybtna {
+        text-decoration: none;
+        color: black;
+    }
+
+    .surveybtna:hover {
+        color: white;
+    }
+
+    .surveybtn {
+        width: 278px;
+        position: absolute;
+        top: 217px;
+        border: none;
+        margin-top: 14px;
+        background-color: white;
+        padding-top: 5px;
+        text-align: center;
+        border-radius: 0;
+        z-index: 9999;
+        left: 42%;
+    }
+
+    .starthere {
+    margin-top: 5px;
+    }
+
+    @media (max-width: 525px) {
+        .starthere {
+            margin-top: 8px;
+        }
+    }
+    .surveybtn:hover {
+        background-color: #364952;
+    }
+
+    .surveybtn:hover #surveyinfo {
+        visibility: visible !important;
+    }
+
+    .section1icon {
+        height: 300px;
+        position: relative;
+        box-shadow: inset 0px 4px 10px black;
+    }
+
+    .checkout {
+        height: 260px;
+        position: relative;
+        bottom: -34px;
+
+    }
+
+    .checkouticon {
+        position: absolute;
+        left: 33%;
+        bottom: 16px;
+    }
+
+    @media (max-width: 525px) {
+        .checkouticon {
+            left: 2%;
+        }
+    }
+    .checkoutheader {
+        display: block;
+        width: 200px;
+        position: absolute;
+        bottom: 34px;
+        left: 42%;
+    }
+
+    @media (max-width: 525px) {
+        .checkoutheader {
+
+            left: 35%;
+        }
+    }
+    .step3header {
+        font-size: 35px;
+        position: absolute;
+        bottom: 69px;
+        left: 42%;
+    }
+
+    @media (max-width: 525px) {
+        .step3header {
+            font-size: 35px;
+            position: absolute;
+            bottom: 69px;
+            left: 35%;
+        }
+    }
+    .lastplane {
+        background: url(../images/clouds-plane-landscape.jpg) fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-width: 100%;
+        height: 378px;
+        position: relative;
+
+    }
+
+    .section2GS {
+        background: url(../images/section2bg.jpg) fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-width: 100%;
+        height: 378px;
+        position: relative;
+    }
+
+    .sectionicon {
+        height: 300px;
+        position: relative;
+
+    }
+
+    .s1icon {
+        position: absolute;
+        top: 202px;
+        left: 33%;
+    }
+
+    @media (max-width: 525px) {
+        .s1icon {
+            position: absolute;
+            top: 202px;
+            left: 0;
+        }
+    }
+    .s2icon {
+        position: absolute;
+        top: 221px;
+        left: 33%;
+    }
+
+    @media (max-width: 525px) {
+        .s2icon {
+            position: absolute;
+            top: 217px;
+            left: -2%;
+        }
+    }
+    .emailbar {
+        border: none;
+    }
+
+    .form-signin {
+        width: 350px;
+        position: absolute;
+        top: 20%;
+        left: 40%;
+        border: none;
+        margin-top: 14px;
+    }
+
+    @media (max-width: 525px) {
+        .form-signin {
+            width: 350px;
+            position: absolute;
+            top: 20%;
+            left: 4%;
+            border: none;
+            margin-top: 14px;
+        }
+    }
+    .form-control {
+        border: none;
+        color: black;
+    }
+
+    .btn-signin {
+        border-radius: 0px;
+        width: 350px;
+        margin: 10px auto;
+        font-family: 'Hind', sans-serif;
+        padding-top: 12px;
+
+    }
+
+    .btn-register {
+        height: 29px;
+        font-size: 14px;
+        padding-bottom: 18px;
+        padding-top: 2px;
+        width: 350px;
+        border-radius: 0;
+        background-color: white;
+    }
+
+    .signbody {
+        text-align: center;
+        color: black;
+        /* text-align: center; */
+    }
+
+    .form-control {
+        border-radius: 0 !important;
+        margin: 10px 0;
+        font-family: 'Hind', sans-serif;
+        color: black;
+    }
+
+    .registerP {
+        margin-top: 3px;
+        font-family: 'Hind', sans-serif;
+    }
+
+    .btn-signin:hover {
+        color: white;
+        background-color: black;
+    }
+
+    .btn-register:hover {
+        color: white;
+        background-color: #364952;
+    }
+
+    .imgsignbody {
+        margin-top: 50px;
+    }
+
+    .h3signbody {
+        margin-top: 10px;
+    }
+
+    .h3a {
+        color: #A3DAF5 !important;
+        opacity: .65;
+        padding: 5px;
+
+    }
+
+    .h3a:hover {
+        color: white !important;
+        text-decoration: none;
+        border: 1px solid black;
+        background-color: #231F20;
+        -webkit-transition: width 2s; /* Safari */
+        transition: width 2s;
+
+    }
+
+    li, .h3a {
+
+        color: black;
+
+        list-style-type: none;
+
+    }
+
+    .surveyinfo {
+        visibility: hidden;
+    }
+
+    .plist {
+        text-align: left;
+        color: #A3DAF5;
+        position: absolute;
+        top: 52px;
+        left: 40%;
+    }
+
+    @media (max-width: 525px) {
+        .plist li h2 {
+            font-size: 33px;
+            color: white;
+            text-shadow: 2px 2px 4px black;
+            opacity: .95;
+        }
+    }
+
+.plist, li, h2 {
+    font-size: 30px;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    opacity: .95;
+}
+    @media (max-width: 525px) {
+        .plist {
+            text-align: left;
+            color: #A3DAF5;
+            position: absolute;
+            top: 47px;
+            left: 3%;
+        }
+    }
+.hrsignbody {
+    margin-top: 100px;
+}
+
+
+.h3signbody2 {
+    margin-top: 30px;
+}
+
+/* About Page */
+
+.backgroundimg1A {
+    background: white url("../images/stream-mtn.jpg")no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-top: 450px;
+    border-radius: 0 0;
+    height: 100vh;
+    position: relative;
+
+}
+.backgroundimg1C {
+    background: white url("../images/stream-trees.jpg")no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-top: 450px;
+    border-radius: 0 0;
+    height: 100vh;
+    position: relative;
+
+}
+.backgroundimg1faq {
+    background: white url("../images/car-mtn.jpg")no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-top: 450px;
+    border-radius: 0 0;
+    height: 100vh;
+    position: relative;
+
+}
+.missionstatement {
+    background-color: white;
+    z-index: 9999;
+    height: 250px;
+    box-shadow: inset 0px 4px 10px black;
+    position: relative;
+}
+.contactfrom {
+    background-color: white;
+    z-index: 9999;
+    box-shadow: inset 0px 4px 10px black;
+    position: relative;
+    padding: 117px 20%;
+}
+.blogtitle {
+    width: 75%;
+    padding: 197px 0;
+    box-shadow: inset 0px 4px 10px black;
+    height: 100vh;
+    float: left;
+    position: relative;
+}
+.imageright {
+    display: inline-block;
+    float: right;
+    height: 100vh;
+
+}
+.blogheader {
+    margin-top: 100px;
+    margin-left: 40%;
+    width: 54%;
+}
+.italisized{
+    font-style: oblique;
+}
+.canyon {
+    position: absolute;
+    top: 60px;
+    left: 11%;
+
+}
+
+.logopic3 {
+    position: absolute;
+    top: 3%;
+
+    right: 36%;
+}
+.aboutsplash {
+    color: white;
+    position: absolute;
+    top: 77.6%;
+    right: 2%;
+    font-size: 11em;
+    opacity: .6;
+    text-shadow: none;
+}
+.blogsplash {
+    color: white;
+    position: absolute;
+    top: 73.6%;
+    right: 2%;
+    font-size: 11em;
+    opacity: .6;
+    text-shadow: none;
+}
+.getstartedheader2 {
+    color: white;
+    position: absolute;
+    top: 85%;
+    right: 8%;
+}
+
+.burgerbtnA {
+    text-align: center;
+    display: block;
+    position: absolute;
+    left: 90%;
+    top: 25px;
+}
+
+@media(max-width: 768px) {
+    .burgerbtnA {
+        text-align: center;
+        display: block;
+        position: absolute;
+        left: 88%;
+        top: 158px;
+    }
+    .logopic3 {
+        width:300px;
+        top: 59%;
+        right:6%;
+
+    }
+
+}
+
+@media (max-width: 800px){
+    .teamwrap {
+        height: 800px;
+        padding: 25px;
+    }
+
+    .missionstatement {
+        padding: 0 37px!important;
+    }
+}
+
+@media(max-width: 500px) {
+    .burgerbtnA {
+        text-align: center;
+        display: block;
+        position: absolute;
+        left: 81%;
+        top: 111px;
+    }
+    .logopic3 {
+        width:200px;
+        top: 65%;
+
+    }
+    .backgroundimg6 {
+        height: 300px;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    .missionstatement {
+        padding: 0 37px !important;
+    }
+
+
+
+}
+
+/* Blog Page */
+
+.backgroundimg1B {
+    background: white url("../images/section2bg.jpg")no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-top: 450px;
+    border-radius: 0 0;
+    height: 100vh;
+    position: relative;
+    opacity: .9;
+    background-position: top;
+
+}
+
+.banner_bl {
+    background-image: url(../images/pontoon.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    width: 100%;
+    height: 500px;
+    display: inline-block;
+
+
+}
+
+/* Burger BTN responsiveness */
+
+.burgerbtnB {
+    text-align: center;
+    display: block;
+    position: absolute;
+    left: 90%;
+    top: 25px;
+    color: white;
+}
+
+.burgerbtnabout {
+    right: 3%;
+    text-align: center;
+    display: block;
+    position: absolute;
+    top: 39px;
+    color: white;
+}
+/* ___________________________*/
+
+
+.getstartedheader2B {
+    color: white;
+    position: absolute;
+    top: 85%;
+    right: 8%;
+    transform: rotate(20deg);
+}
